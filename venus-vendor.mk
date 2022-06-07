@@ -5,6 +5,9 @@
 PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/venus
 
+# include diag driver files
+-include $(LOCAL_PATH)/plus-diag.mk
+
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/venus/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/xiaomi/venus/proprietary/vendor/bin/batterysecret:$(TARGET_COPY_OUT_VENDOR)/bin/batterysecret \
