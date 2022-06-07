@@ -6,7 +6,7 @@ Heavily based off the PixelExperience vendor repository: https://gitlab.pixelexp
 
 ## Usage in your own build process
 
-Create a new manifest in `.repo/local_manifests` (e.g., `pixel_with_diag.xml`). **The filename must be alphabetically below the existing** `pixel.xml` **manifest.**
+Create a new manifest in `.repo/local_manifests` (e.g., `pixel_with_diag.xml`). **The filename must be alphabetically after the existing** `pixel.xml` **manifest.**
 
 Copy the contents of the code block below into this new file. This will remove PE's own `venus` vendor and device repos and use this repo and my device repo instead.
 
