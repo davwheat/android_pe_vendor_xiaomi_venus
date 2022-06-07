@@ -3,9 +3,9 @@
 # system_ext
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system_ext/lib/libDiagService.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libDiagService.so \
-    $(LOCAL_PATH)/proprietary/system_ext/lib/vendor.qti.diaghal@1.0:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.diaghal@1.0.so \
+    $(LOCAL_PATH)/proprietary/system_ext/lib/vendor.qti.diaghal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.diaghal@1.0.so \
     $(LOCAL_PATH)/proprietary/system_ext/lib64/libDiagService.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libDiagService.so \
-    $(LOCAL_PATH)/proprietary/system_ext/lib64/vendor.qti.diaghal@1.0:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.diaghal@1.0.so
+    $(LOCAL_PATH)/proprietary/system_ext/lib64/vendor.qti.diaghal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.diaghal@1.0.so
 
 # vendor
 PRODUCT_COPY_FILES += \
